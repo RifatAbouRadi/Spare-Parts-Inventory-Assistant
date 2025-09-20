@@ -25,8 +25,8 @@ Only then does the program exit with a confirmation message.
 ---
 
 ## Files
-- `main.c` → The source code of the program  
-- `README.md` → This documentation  
+- `main.c` 
+- `README.md` 
 
 ---
 
@@ -39,7 +39,7 @@ If GCC is not available, you can use an online C compiler such as:
 ### Option 2: Compile with GCC locally
 ```bash
 gcc main.c 
-inventory.exe   # on Windows```
+inventory.exe   # on Windows
 
 ## **Note**:
 
