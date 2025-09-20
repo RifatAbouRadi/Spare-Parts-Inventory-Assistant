@@ -41,7 +41,7 @@ If GCC is not available, you can use an online C compiler such as:
 gcc main.c 
 inventory.exe   # on Windows
 
-## **Note**:
+### **NOTE**:
 
 fgets() is used instead of scanf("%s", …) so the program can read the whole line including spaces.
 For example:
