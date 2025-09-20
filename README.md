@@ -40,3 +40,14 @@ If GCC is not available, you can use an online C compiler such as:
 ```bash
 gcc main.c 
 inventory.exe   # on Windows
+
+## **Note**:
+
+fgets() is used instead of scanf("%s", …) so the program can read the whole line including spaces.
+For example:
+
+Input: hydraulic pump → fgets reads it correctly ✅
+
+Input: hydraulic pump → scanf("%s", …) would only read hydraulic ❌
+
+This ensures multi-word parts like "hydraulic pump" and "PLC module" work as expected.
