@@ -17,7 +17,7 @@ Only then does the program exit with a confirmation message.
 
 ## Features
 - Takes user input for requested part  
-- Handles special queries (case-sensitive, exact text)  
+- Handles special queries (exact text, another case)  
 - Checks if the requested part is in inventory  
 - Loops until a valid part is found  
 - Exits only after confirming that a part is available  
